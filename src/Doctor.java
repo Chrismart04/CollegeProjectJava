@@ -13,6 +13,22 @@ public class Doctor {
         this.id = ++idCounter;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+    
+    public String getSpecialty() {
+        return specialty;
+    }
+
     //toString method to display the doctor's information
     @Override
     public String toString() {
